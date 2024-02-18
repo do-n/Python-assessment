@@ -1,0 +1,39 @@
+h1{
+            font-family: "Century Schoolbook L";
+            text-align: center;
+            background-color: black;
+            color: white;
+
+        }
+        navigation{
+            font-family: "Droid Sans Fallback";
+            background-color: dimgrey;
+            text-decoration-color: white;
+         }
+
+form{font-family: "Droid Sans Fallback";
+        text-decoration: dimgrey;
+        background-color: darkcyan;
+        }
+        body{
+            background-color: burlywood;
+        }
+        navigation{
+            font-family: "Droid Sans Fallback";
+            background-color: coral;
+            text-decoration-color: white;
+        }
+ h1{font-family: "Century Schoolbook L",serif;
+        font-size:30px;
+        text-align: center;
+        text-decoration: underline;
+        }
+        body{
+            background-color: burlywood;
+        }
+h3{
+    font-family: "Courier 10 Pitch", serif;
+}
+p{
+    font-family: "Century Schoolbook L", serif;
+}

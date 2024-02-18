@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCOUNTS</title>
+     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css\"type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/camping-6.jpg" alt="Avatar Logo" style="width:50px;" class="rounded">
+    </a>
+      <a class="navbar-brand" href="javascript:void(0)">OPERA LAB</a>
+  </div>
+</nav>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="HomePage.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Gallery.html">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ACCOUNTS</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <h4>REGISTER FORM</h4>
+            <form action="/action_page.php">
+  <div class="mb-3 mt-3">
+     <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter name" name="name">
+  </div>
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
+  <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-success">REGISTER</button>
+</form>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+            <h4>LOGIN FORM</h4>
+            <hr>
+             <form action="/action_page.php">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
+  <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-success">LOGIN</button>
+</form>
+        </div>
+</div>
+
+
+<script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
